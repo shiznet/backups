@@ -1,9 +1,6 @@
-alias sbash='source ~/.bash_profile'
-
-# some more ls aliases
-function cdl(){
-	cd $1
-	echo "curPath:"$(pwd)
-	ls
-}
-alias cd='cdl'
+if [ -f ~/.bash_aliases ]; then
+	source ~/.bash_aliases
+fi
+if [ -f ~/.local/bin/bashmarks.sh ];then
+	source ~/.local/bin/bashmarks.sh
+fi

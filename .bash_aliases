@@ -1,0 +1,5 @@
+alias ll='ls -alhG'
+alias ls='ls -G'
+alias jumper='ssh -A -i ~/.ssh/hzliwenjia -p56789 webedit@123.125.50.164 -l hzliwenjia'
+alias goapptrack='ssh -A -i ~/.ssh/hzliwenjia -p 1046 client@10.120.106.100 -l client'
+#alias cd='~/.local/bin/cdl.sh'
