@@ -1,3 +1,4 @@
+#git config --global core.excludesfile ~/.gitignore_global
 #file created by idea
 *.iml
 .idea/*
